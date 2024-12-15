@@ -1,0 +1,47 @@
+/* Стили для всей страницы */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Светлый фон */
+    color: #333; /* Цвет текста */
+}
+
+/* Стили для шапки */
+header {
+    background-color: #0078D7; /* Синий фон */
+    color: white; /* Белый текст */
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Стили для ссылок в меню */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для секций */
+section {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 1rem;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для футера */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background: #222; /* Тёмный фон */
+    color: #fff; /* Белый текст */
+}
